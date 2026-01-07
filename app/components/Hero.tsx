@@ -58,7 +58,7 @@ const Hero = () => {
               className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 animate-pulse-glow"
             >
               <Download size={20} />
-              Télécharger mon CV
+              Télécharger Mon CV
             </button>
             <a
               href="#contact"
