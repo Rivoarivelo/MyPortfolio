@@ -28,7 +28,7 @@ const Hero = () => {
           >
             Développeur
             <span className="block bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
-              FullStack
+              Frontend
             </span>
           </motion.h1>
 
@@ -41,7 +41,7 @@ const Hero = () => {
             Hi👋,Je m'appelle RAKOTONIAINA Rivoarivelo Joseph , personnes
             m'appelle Rivo .Je suis un{" "}
             <span className="bg-gradient-to-r from-red-400 via-purple-500 to-yellow-500 bg-clip-text text-transparent animate-gradient">
-              Développeur FullStack,
+              Développeur Frontend,
             </span>{" "}
             création d'expériences web modernes et performantes avec React,
             Next.js et Node.js 😊
