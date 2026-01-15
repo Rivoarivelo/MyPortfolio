@@ -22,14 +22,14 @@ const SkillsGSAP = () => {
   const skillsFront = [
     {
       name: "React.js",
-      level: 80,
+      level: 60,
       icon: Code,
       color: "bg-blue-500",
       glow: "shadow-blue-500/50",
     },
     {
       name: "Next.js",
-      level: 75,
+      level: 50,
       icon: Code2,
       color: "bg-gray-800",
       glow: "shadow-gray-700/50",
@@ -50,7 +50,7 @@ const SkillsGSAP = () => {
     },
     {
       name: "JavaScript",
-      level: 95,
+      level: 80,
       icon: FileCode2,
       color: "bg-yellow-500",
       glow: "shadow-gray-700/50",
@@ -58,14 +58,14 @@ const SkillsGSAP = () => {
 
     {
       name: "TypeScript",
-      level: 90,
+      level: 80,
       icon: Code2,
       color: "bg-blue-600",
       glow: "shadow-blue-600/50",
     },
     {
       name: "Tailwind CSS",
-      level: 85,
+      level: 60,
       icon: Palette,
       color: "bg-cyan-500",
       glow: "shadow-cyan-500/50",
@@ -74,35 +74,35 @@ const SkillsGSAP = () => {
   const skillsBack = [
     {
       name: "Node.js/Express",
-      level: 80,
+      level: 50,
       icon: Server,
       color: "bg-green-500",
       glow: "shadow-green-500/50",
     },
     {
       name: "Spring Boot",
-      level: 65,
+      level: 35,
       icon: Server,
       color: "bg-green-600",
       glow: "shadow-gray-700/50",
     },
     {
       name: "Python",
-      level: 60,
+      level: 50,
       icon: MdQrCode2,
       color: "bg-blue-800",
       glow: "shadow-blue-500/50",
     },
     {
       name: "C#",
-      level: 80,
+      level: 70,
       icon: Code,
       color: "bg-purple-700",
       glow: "shadow-blue-500/50",
     },
     {
       name: "Java",
-      level: 65,
+      level: 70,
       icon: Code2,
       color: "bg-red-600",
       glow: "shadow-gray-700/50",
@@ -128,21 +128,35 @@ const SkillsGSAP = () => {
       color: "bg-emerald-600",
       glow: "shadow-emerald-600/50",
     },
-  ];
-  const skillsOutils = [
-    {
-      name: "Git/GitHub",
-      level: 85,
-      icon: Code,
-      color: "bg-red-600",
-      glow: "shadow-gray-700/50",
-    },
     {
       name: "Prisma",
       level: 70,
       icon: Database,
       color: "bg-indigo-500",
       glow: "shadow-indigo-500/50",
+    },
+  ];
+  const skillsOutils = [
+    {
+      name: "Git/GitHub",
+      level: 75,
+      icon: Code,
+      color: "bg-red-600",
+      glow: "shadow-gray-700/50",
+    },
+    {
+      name: "Postman",
+      level: 30,
+      icon: Server,
+      color: "bg-blue-600",
+      glow: "shadow-blue-600/50",
+    },
+    {
+      name: "Visual Studio Code",
+      level: 80,
+      icon: Code2,
+      color: "bg-blue-600",
+      glow: "shadow-blue-600/50",
     },
   ];
   // const skills = [...skillsFront, ...skillsBack];
