@@ -23,7 +23,15 @@ const Projects = () => {
         "Système de gestion de contenu pour créateurs avec éditeur visuel.",
       tags: ["Next.js", "Prisma", "PostgreSQL"],
       gradient: "from-orange-500 to-red-500",
-      link: "#",
+      link: "https://my-portfolio-rivo.vercel.app/",
+    },
+    // pacman
+    {
+      title: "Pacman Game",
+      description: "Jeu Pacman classique développé en JavaScript.",
+      tags: ["Next.js", "HTML5", "tailwindCSS"],
+      gradient: "from-yellow-400 to-yellow-600",
+      link: "https://pac-man-rho.vercel.app/",
     },
   ];
 
@@ -40,6 +48,8 @@ const Projects = () => {
         </motion.h2>
 
         <div className="grid md:grid-cols-3 gap-8">
+          {/* Image */}
+
           {projects.map((project, index) => (
             <ProjectCard
               key={project.title}
