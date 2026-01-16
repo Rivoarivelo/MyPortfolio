@@ -4,6 +4,7 @@ import { Code, ExternalLink, Github } from "lucide-react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
+import { image } from "framer-motion/client";
 
 const Projects = () => {
   const ref = useRef(null);
@@ -15,6 +16,7 @@ const Projects = () => {
       description: "Mini plateforme d'échange d'objets entre particuliers.",
       tags: ["Codeigniter4", "MySQL", "TailwindCSS"],
       gradient: "from-purple-500 to-pink-500",
+      image: "/Swapshop.png",
       link: "https://github.com/Rivoarivelo/SwapShop.git",
     },
     {
@@ -23,6 +25,7 @@ const Projects = () => {
         "Système de gestion de contenu pour créateurs avec éditeur visuel.",
       tags: ["Next.js", "Prisma", "PostgreSQL"],
       gradient: "from-orange-500 to-red-500",
+      image: "/Portfolio.png",
       link: "https://my-portfolio-rivo.vercel.app/",
     },
     // pacman
@@ -30,6 +33,8 @@ const Projects = () => {
       title: "Pacman Game",
       description: "Jeu Pacman classique développé en JavaScript.",
       tags: ["Next.js", "HTML5", "tailwindCSS"],
+      // ajouter un image dans la dossier public
+      image: "/Pacman.png",
       gradient: "from-yellow-400 to-yellow-600",
       link: "https://pac-man-rho.vercel.app/",
     },
@@ -131,6 +136,18 @@ const ProjectCard = ({ project, index, isInView }: any) => {
         animate={isHovered ? { scale: 1.1 } : { scale: 1 }}
         transition={{ duration: 0.4 }}
       >
+        {/* Image personnaliser sur le const project dans le dossier public */}
+        {project.image && (
+          <motion.img
+            src={project.image}
+            alt={project.title}
+            className="w-full h-full object-cover absolute inset-0"
+            initial={{ opacity: 10 }}
+            animate={{ opacity: isHovered ? 0.3 : 1 }}
+            transition={{ duration: 0.4 }}
+          />
+        )}
+
         {/* Icône qui flotte */}
         <motion.div
           animate={{
@@ -227,7 +244,7 @@ const ProjectCard = ({ project, index, isInView }: any) => {
             className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
             whileHover={{ x: 5 }}
           >
-            Voir le projet <ExternalLink size={16} />
+            Voir le projet <ExternalLink size={20} />
           </motion.a>
           <motion.a
             href={project.link}
