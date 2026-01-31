@@ -329,7 +329,7 @@ const SkillsGSAP = () => {
           - 2025 : Troisième année de licence à l'ISPM ,Parcours: Eléctronique
           Système Informatique et Intelligence Artificielle(ESIIA) <br />
           - 2023 : Formation à Alliance Française .Niveau:B2 <br />
-          - 2022 : Baccalauréat Téchnique Eléctronique. Mention:Bien <br />-
+          - 2022 : Baccalauréat Téchnique Eléctronique. Mention : Bien <br />-
           2021 : Brevet d'Etude Proféssionnelle (BEP) en Téchnique Eléctronique.
           Mention : Bien
         </p>
