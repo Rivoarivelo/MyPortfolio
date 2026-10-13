@@ -13,7 +13,12 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MdQrCode2 } from "react-icons/md";
 import { RiReactjsFill } from "react-icons/ri";
-import { RiNextjsFill, RiHtml5Fill, RiCss3Fill } from "react-icons/ri";
+import {
+  RiNextjsFill,
+  RiHtml5Fill,
+  RiCss3Fill,
+  RiJavascriptFill,
+} from "react-icons/ri";
 // import { RiReactjsFill } from "react-icons/ri";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -55,7 +60,7 @@ const SkillsGSAP = () => {
     {
       name: "JavaScript",
       level: 80,
-      icon: FileCode2,
+      icon: RiJavascriptFill,
       color: "bg-yellow-500",
       glow: "shadow-gray-700/50",
     },
