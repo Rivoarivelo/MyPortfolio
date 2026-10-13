@@ -19,6 +19,7 @@ import {
   SiExpress,
   SiSpringboot,
   SiPython,
+  SiMysql,
 } from "react-icons/si";
 import {
   RiNextjsFill,
@@ -142,7 +143,7 @@ const SkillsGSAP = () => {
     {
       name: "MySQL",
       level: 60,
-      icon: Database,
+      icon: SiMysql,
       color: "bg-emerald-600",
       glow: "shadow-emerald-600/50",
     },
