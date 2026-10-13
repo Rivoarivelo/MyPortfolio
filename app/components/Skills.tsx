@@ -13,6 +13,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MdQrCode2 } from "react-icons/md";
 import { RiReactjsFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 import {
   RiNextjsFill,
   RiHtml5Fill,
@@ -68,7 +69,7 @@ const SkillsGSAP = () => {
     {
       name: "TypeScript",
       level: 80,
-      icon: Code2,
+      icon: SiTypescript,
       color: "bg-blue-600",
       glow: "shadow-blue-600/50",
     },
