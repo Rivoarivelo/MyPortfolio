@@ -27,7 +27,9 @@ const Hero = () => {
             className="text-5xl md:text-7xl font-bold leading-tight"
           >
             Développeur
-            <span className="block bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
+            {/* <span className="block bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
+             */}
+            <span className="block bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-indigo-500 animate-gradient">
               Frontend
             </span>
           </motion.h1>
@@ -36,15 +38,16 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="text-xl text-gray-300"
+            className="text-xl text-black-300"
           >
-            Hi👋,Je m'appelle RAKOTONIAINA Rivoarivelo Joseph , personnes
+            Hi,Je m'appelle RAKOTONIAINA Rivoarivelo Joseph , personnes
             m'appelle Rivo .Je suis un{" "}
-            <span className="bg-gradient-to-r from-red-400 via-purple-500 to-yellow-500 bg-clip-text text-transparent animate-gradient">
+            {/* <span className="bg-gradient-to-r from-indigo-600 via-red-500 to-red-500 bg-clip-text text-transparent animate-gradient"> */}
+            <span className="bg-red-600 bg-clip-text text-transparent animate-gradient">
               Développeur Frontend,
             </span>{" "}
             création d'expériences web modernes et performantes avec React,
-            Next.js et Node.js 😊
+            Next.js et Node.js.
           </motion.p>
 
           <motion.div
@@ -62,7 +65,7 @@ const Hero = () => {
             </button>
             <a
               href="#contact"
-              className="flex items-center gap-2 text-yellow-300 border border-yellow/30 hover:bg-white/10 px-6 py-3 rounded-lg font-semibold transition-all duration-300"
+              className="flex items-center gap-2 bg-indigo-800 hover:bg-red-500 px-6 py-3 rounded-lg font-semibold transition-all duration-300"
             >
               Me contacter
             </a>

@@ -41,13 +41,13 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projets" className="py-20 px-4 bg-black/20">
+    <section id="projets" className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto" ref={ref}>
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-5xl font-bold text-center mb-16"
+          className="text-4xl md:text-5xl text-indigo-500 font-bold text-center mb-16"
         >
           Mes Projets
         </motion.h2>

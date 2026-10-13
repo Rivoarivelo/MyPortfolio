@@ -12,6 +12,8 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MdQrCode2 } from "react-icons/md";
+import { RiReactjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiHtml5Fill, RiCss3Fill } from "react-icons/ri";
 // import { RiReactjsFill } from "react-icons/ri";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -23,28 +25,30 @@ const SkillsGSAP = () => {
     {
       name: "React.js",
       level: 60,
-      icon: Code,
+      // Icon ReactJs
+      icon: RiReactjsFill,
       color: "bg-blue-500",
       glow: "shadow-blue-500/50",
     },
     {
       name: "Next.js",
       level: 50,
-      icon: Code2,
-      color: "bg-gray-800",
+      // icon NextJS
+      icon: RiNextjsFill,
+      color: "bg-green-800",
       glow: "shadow-gray-700/50",
     },
     {
       name: "Html",
       level: 90,
-      icon: Code,
+      icon: RiHtml5Fill,
       color: "bg-blue-500",
       glow: "shadow-blue-500/50",
     },
     {
       name: "CSS",
       level: 70,
-      icon: Code,
+      icon: RiCss3Fill,
       color: "bg-red-600",
       glow: "shadow-gray-700/50",
     },
@@ -210,13 +214,13 @@ const SkillsGSAP = () => {
   return (
     <section id="competences" className="py-20 px-4" ref={sectionRef}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="skills-title text-3xl text-yellow-300 md:text-5xl font-bold text-center mb-16">
+        <h2 className="skills-title text-3xl text-indigo-500 md:text-5xl font-bold text-center mb-16">
           Mes Compétences
         </h2>
-        <p className="text-center text-gray-400 mb-12">
+        <p className="text-center mb-12">
           Voici un aperçu de mes compétences techniques
         </p>
-        <h3 className="skills-title text-xl text-red-300 md:text-5xl font-bold text-center mb-16">
+        <h3 className="skills-title text-xl text-red-500 md:text-5xl font-bold text-center mb-16">
           Front-End
         </h3>
 
@@ -233,7 +237,8 @@ const SkillsGSAP = () => {
               >
                 <div className="flex items-center gap-4 mb-4">
                   <div className={`${skill.color} p-3 rounded-lg`}>
-                    <Icon size={24} />
+                    <Icon size={30} />
+                    {/* <RiReactjsFill size={24} className="text-black" /> */}
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between mb-2">
@@ -252,7 +257,7 @@ const SkillsGSAP = () => {
             );
           })}
         </div>
-        <h3 className="skills-title text-xl text-red-300 md:text-5xl font-bold text-center my-16">
+        <h3 className="skills-title text-xl text-red-500 md:text-5xl font-bold text-center my-16">
           Back-End
         </h3>
         <div className="grid md:grid-cols-2 gap-8">
@@ -287,7 +292,7 @@ const SkillsGSAP = () => {
             );
           })}
         </div>
-        <h3 className="skills-title text-xl text-red-300 md:text-5xl font-bold text-center my-16">
+        <h3 className="skills-title text-xl text-red-500 md:text-5xl font-bold text-center my-16">
           Outils
         </h3>
         <div className="grid md:grid-cols-2 gap-8">
@@ -322,10 +327,10 @@ const SkillsGSAP = () => {
             );
           })}
         </div>
-        <h3 className="skills-title text-xl text-red-300 md:text-5xl font-bold text-center my-16">
+        <h3 className="skills-title text-xl text-indigo-500 md:text-5xl font-bold text-center my-16">
           Diplôme et Formation professionnel
         </h3>
-        <p className="text-gray-400 mt-4">
+        <p className="text-gray-600 mt-4">
           - 2025 : Troisième année de licence à l'ISPM ,Parcours: Eléctronique
           Système Informatique et Intelligence Artificielle(ESIIA) <br />
           - 2023 : Formation à Alliance Française .Niveau:B2 <br />

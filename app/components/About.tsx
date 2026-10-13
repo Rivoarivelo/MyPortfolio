@@ -9,7 +9,7 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" className="py-20 px-4 bg-black/20">
+    <section id="about" className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto" ref={ref}>
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -26,7 +26,7 @@ const About = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="glass-effect rounded-2xl p-8 md:p-12 hover-lift"
         >
-          <p className="text-lg text-yellow-300 leading-relaxed mb-6">
+          <p className="text-lg text-black-300 leading-relaxed mb-6">
             Passionné par le développement web,mobile depuis plusieurs années,
             je crée des applications modernes, performantes et centrées sur
             l'utilisateur. Mon expertise couvre l'ensemble du stack
@@ -36,7 +36,7 @@ const About = () => {
             l'évolution technologique et de la créativité, et j'aime le contact
             humain, notamment pour résoudre les problèmes liés au numérique.
           </p>
-          <p className="text-lg text-yellow-300 leading-relaxed">
+          <p className="text-lg text-black-300 leading-relaxed">
             J'aime relever de nouveaux défis techniques et collaborer sur des
             projets innovants. Mon objectif est de transformer des idées en
             solutions digitales impactantes.

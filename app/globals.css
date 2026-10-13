@@ -2,7 +2,7 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white;
+    @apply bg-gradient-to-br from-gray-50 via-gray-50 to-gray-50 text-black font-sans;
   }
 }
 

@@ -39,7 +39,7 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent"
+            className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-500 bg-clip-text text-transparent"
           >
             Rivo RAKOTONIAINA
           </motion.div>
