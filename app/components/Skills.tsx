@@ -12,13 +12,21 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MdQrCode2 } from "react-icons/md";
+import { TbBrandCSharp } from "react-icons/tb";
 import { RiReactjsFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import {
+  SiTypescript,
+  SiExpress,
+  SiSpringboot,
+  SiPython,
+} from "react-icons/si";
 import {
   RiNextjsFill,
   RiHtml5Fill,
   RiCss3Fill,
   RiJavascriptFill,
+  RiTailwindCssFill,
+  RiJavaLine,
 } from "react-icons/ri";
 // import { RiReactjsFill } from "react-icons/ri";
 gsap.registerPlugin(ScrollTrigger);
@@ -76,7 +84,7 @@ const SkillsGSAP = () => {
     {
       name: "Tailwind CSS",
       level: 60,
-      icon: Palette,
+      icon: RiTailwindCssFill,
       color: "bg-cyan-500",
       glow: "shadow-cyan-500/50",
     },
@@ -85,35 +93,35 @@ const SkillsGSAP = () => {
     {
       name: "Node.js/Express",
       level: 50,
-      icon: Server,
+      icon: SiExpress,
       color: "bg-green-500",
       glow: "shadow-green-500/50",
     },
     {
       name: "Spring Boot",
       level: 35,
-      icon: Server,
+      icon: SiSpringboot,
       color: "bg-green-600",
       glow: "shadow-gray-700/50",
     },
     {
       name: "Python",
       level: 50,
-      icon: MdQrCode2,
-      color: "bg-blue-800",
+      icon: SiPython,
+      color: "bg-yellow-400",
       glow: "shadow-blue-500/50",
     },
     {
       name: "C#",
       level: 70,
-      icon: Code,
+      icon: TbBrandCSharp,
       color: "bg-purple-700",
       glow: "shadow-blue-500/50",
     },
     {
       name: "Java",
       level: 70,
-      icon: Code2,
+      icon: RiJavaLine,
       color: "bg-red-600",
       glow: "shadow-gray-700/50",
     },
